@@ -13,6 +13,7 @@
  *= require foundation
  *= require_tree .
  */
+
 h1 {
  color: #444;
  background-color: transparent;
@@ -706,5 +707,6 @@ ul li {
 
 #home-login-link {
 	padding: 10px;
+	margin-top: 50px;
 }
 
