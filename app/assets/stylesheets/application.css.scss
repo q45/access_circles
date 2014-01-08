@@ -1,0 +1,710 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require foundation_and_overrides
+ *= require foundation
+ *= require_tree .
+ */
+h1 {
+ color: #444;
+ background-color: transparent;
+ /*border-bottom: 1px solid #D0D0D0;*/
+ font-size: 16px;
+ font-weight: bold;
+ margin: 0;
+ padding: 0;
+}
+
+p, li {
+	color: #003333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px 0;
+}
+
+.detail {
+	color: #003333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+code {
+ font-family: Monaco, Verdana, Sans-serif;
+ font-size: 12px;
+ background-color: #f9f9f9;
+ border: 1px solid #D0D0D0;
+ color: #002166;
+ display: block;
+ margin: 14px 0 14px 0;
+ padding: 12px 10px 12px 10px;
+}
+
+
+.container {
+	display: block;
+	position: relative;
+	width: 1000px;
+	height: auto;
+	background: #fff;
+	margin: auto;
+	background: #fff;
+}
+
+
+#header {
+	display: block;
+	position: relative;
+	width: 1000px;
+	height: auto;
+	background: #fff;
+	margin: auto;
+} 
+
+.logo {
+	display: block;
+	position: relative;
+	width: 138px;
+	height: 126px;
+	background: url(accessCirclesLogo.gif) top left no-repeat;
+	top: 0px;
+	left: 0px;
+}             
+
+.logo a {
+	display: block;
+	width: 138px;
+	height: 126px;
+	text-indent: -3000px; 
+}
+
+#content aside.normal {
+	margin: 95px 0 0 0;
+}
+
+#content aside.lower {
+	margin: 132px 0 0 0;
+}
+
+#content {
+	font-size: 1.08em;
+}
+
+#content p {
+	width: 650px;
+}
+
+#content aside {
+	display: block;
+	position: absolute;
+	width: 140px;
+	left: 0;
+	top: 250px;
+	height: auto;
+	padding-left: 15px;
+}
+
+#content aside a {
+	color: #65a1a8;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#content aside a:hover {
+	color: #003333;
+}
+
+#content aside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content aside li {
+	margin: 15px 0 0 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 14px;
+}
+
+
+.push-right {
+	margin-left: 160px;
+}
+
+.heading {
+	font-size: 32px; color: #033; margin: 25px 0 10px 0 ;
+}
+
+
+.mainmessage {
+	font-size: 38px; color: #033; line-height: 10px; font-weight: thin; 
+}
+
+
+.section_title {
+	display: block; position: absolute;
+	top: 35px; left: 170px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif; 
+	font-weight: bold;
+	color: #033; font-size: 30pt;
+	filter:alpha(opacity=10);
+	-moz-opacity:0.1;
+	-khtml-opacity: 0.1;
+	opacity: 0.1;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	cursor: default;
+}
+
+#content section {
+	display: block;
+	position: relative;
+	width: 800px;
+	margin: 0 0 0 171px;
+	padding: 20px 0 0 0;
+} 
+
+#content section.single {
+	margin: 0 0 0 8px;
+}
+  
+#main2 {
+	display: block;
+	position: relative;
+	width: 800px;
+	margin: 0 0 0 145px;
+	padding: 20px 0 0 0;
+}
+
+#content section p, #content section ul, {
+	line-height: 20px;
+	padding: 0;
+	width: 530px;
+	font-size: 1.12em;
+	margin-top: 10px;
+}
+
+#content section ul {
+	list-style: disc;
+}
+
+#content section ul ul {
+	list-style: circle;
+}
+
+.agenda li {
+	display: block; 
+	position: relative;
+	min-width: 100px;
+	max-width: 300px;
+	list-style: none;
+	text-align: center;
+	background: #65a1a8;
+	margin: 0; padding: 0;
+}
+
+.agenda li a {
+	display: block; 
+	position: relative;
+	min-width: 100px;
+	max-width: 300px;
+	margin: 0; padding: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*.membership_col_full{
+	font-size: 1.12em;
+}*/
+
+#content section td p {
+	width: 370px;
+	padding-right: 25px;
+}
+
+#eventInfo td p {
+	width: auto !important;
+}
+
+#content section h2 {
+	padding: 0;
+}
+
+h3.headline, h4.headline {
+	color: #003333;
+	font-size: 13px;
+	font-weight: bold;  
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 15px 0 15px 0;
+}
+
+#contentHeader {
+	display: block;
+	width: 600px;
+	height: 76px;
+	background: url(../images/calendarHeader.gif) 15px 0px no-repeat;
+}  
+#contentHeader h3 {  
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-indent: -3000px;
+} 
+#calendarCategories {
+	display: block;
+	position: relative;
+	background: url(images/calendar-categories.gif) top left no-repeat;
+	height: 39px;
+	width: 800px;
+	margin: 0 0 40px 0;
+}
+
+#calendarCategories ul {
+	display: block;
+	position: relative;
+	list-style: none;
+	width: 39px;
+	width: 800px;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+#calendarCategories ul li {
+	display: block;
+	list-style: none;
+	position: relative;
+	margin-right: 30px;
+	float: left;
+	/*border: 1px solid #e2e2e2;*/
+}
+
+#calendarCategories li span {
+	display: none;
+	
+}
+
+#calendarCategories li.healthWelln, #calendarCategories li.healthWelln a {
+	display: block;
+	width: 172px;
+	height: 18px;
+}
+#calendarCategories li.financialEx, #calendarCategories li.financialEx a {
+	display: block;
+	width: 159px;
+	height: 18px;
+}
+#calendarCategories li.lifeBalance, #calendarCategories li.lifeBalance a {
+	display: block;
+	width: 105px;
+	height: 18px;
+}
+
+
+.message {
+	display: block;
+	text-align: center;
+	width: 550px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #033;
+	padding: 20px;
+	background: #f3f3f3;
+}
+
+         
+#footer {
+	display: block;
+	position: relative;
+	float: right;
+	color: #65a1a8;
+	text-align: right;
+	font-size: 10px;
+	font-weight: bold;  
+	margin: 80px 0 70px 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#footer a {
+	color: #65a1a8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer a:hover {
+	color: #003333;
+}
+  
+#eventInfo, #contentInfo {
+	display: block;
+	position: relative; 
+	color: #003333;
+	width: 630px;
+	font-size: 1em;
+	font-size: 1em;
+	line-height: 1.3em;
+	/*background: #f1f1f1;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0;
+} 
+
+#eventInfo { margin: 30px 0 0 0; }
+#contentInfo { margin: 50px 0 0 0; }
+   
+#eventInfo ul, #eventInfo ol {
+	margin: 20px 0 0 25px;
+}     
+
+.eventSub {
+	padding: 30px 0 0 0;
+}
+           
+#eventInfo p {
+	color: #003333;
+}
+
+#main .about {
+	color: #65A1A8;
+}  
+
+#RSVP, #eventItems { 
+	display: block;
+	position: relative; 
+	color: #65a1a8;
+	width: 600px;
+	margin: 20px 0 0 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	line-height: 19px;  
+	padding: 0;
+	/*border: 1px solid #cc0000;*/
+} 
+
+.EventItem {
+	/*color: #003333;*/
+}
+
+#RSVP2  {
+	display: block;
+	position: relative; 
+	color: #65a1a8;
+	width: 600px;
+	margin: 20px 0 40px 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold; 
+	line-height: 19px;  
+	padding: 0;
+}
+ 
+.pictureView { margin: 60px 0 60px 0; }
+                                                             
+
+#pictures ul {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;   
+	list-style: none;
+}             
+
+#pictures ul li {
+	display: block;
+	position: relative;
+	list-style: none;
+	float: left; 
+	margin: 3px;
+}
+
+      
+#rsvpHeader {
+	display:block; 
+	height: 50px;  
+	width: 450px;
+	background: url(../images/RSVP_title.gif) top left no-repeat;
+}  
+
+#rsvpHeader h2 {
+	display: block;
+	text-indent: -3000px;
+}   
+
+.optionHeader { display: block; position: relative; border-top: 1px solid #003333; border-bottom: 1px solid #003333; text-indent: -6000px; margin: 0 0 25px 0; padding: 0; }
+.optionHeader.member { background: url(images/membership/headers/member_heading_wide.gif) top left no-repeat; width: 650px; height: 45px; }
+.optionHeader.virtual_member { background: url(images/membership/headers/virtual_member_heading.gif) top left no-repeat; width: 264px; height: 105px; }
+.optionHeader.founding_member { background: url(images/membership/headers/founding_member_heading_wide.gif) 0 20px no-repeat; width: 650px; height: 65px; }
+
+
+
+td.labelBig {
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 12px;
+	color: #003333;
+	text-transform: uppercase;
+	font-weight: bold; 
+	line-height: 20px;
+	width: 200px; 
+	height: 20px; 
+	padding: 4px 0 4px 0;
+}
+
+.label {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 12px;
+	color: #003333;
+	text-transform: uppercase;
+	font-weight: bold; 
+	line-height: 20px;
+}
+
+.numlabel {
+	width: 100px;
+	display: block;
+	height: 20px;
+	padding: 4px 0 4px 0;
+	float: left;
+}
+
+input {
+	margin: 3px 0 0 0;
+	padding: 2px;
+	border: 1px solid #003333;
+	height: 13px;
+}
+
+.numfield {
+	display: block;
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 12px;
+	width: 50px;
+	padding: 6px 0 4px 0;
+	color: #033;
+	float: left;
+}
+
+.formLabel {
+	display: block;	
+	width: 100px; 
+	height: 20px; 
+	padding: 4px 0 4px 0;
+	float: left;
+}
+
+.formLabelWide {
+	display: block;	
+	width: 120px; 
+	height: 20px; 
+	padding: 4px 5px 4px 0;
+	float: left;
+	text-align: left;
+}
+
+.price {
+	font-weight: normal;
+	padding: 0 0 0 10px;
+}
+
+.formField {
+	display: block;
+	position: relative;
+	float: left;
+	width: 180px;
+	margin: 4px 0 4px 0;
+	color: #003333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.formField input {
+	position: relative;
+	border: 1px solid #003333;
+	
+}
+
+.orderedlist {
+	display: block;
+	list-style: 1;
+	padding-left: 25px;
+}
+
+.clear {
+	display: block;
+	position: relative;
+	clear: both;
+}
+
+.spacer {
+	clear: both;
+	display: block;
+	position: relative;
+	width: auto;
+	height: 15px;
+}
+
+.divider {
+	display: block;
+	position: relative;
+	width: auto;
+	border-bottom: 1px solid #003333;
+	margin: 0 0 15px 0;
+}
+
+.divider.short {
+	width: 170px;
+}
+
+p a, li a {
+	color: #65a1a8;
+	text-decoration: none;
+	/*
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .9em;
+	*/
+}
+
+p a:hover, li a:hover {
+	color: #003333;
+}
+
+.regTextLink {
+	font-family: "Helvetica Neue";
+	line-height: 12px;
+	font-size: 12px; 
+	color: #003333;
+}
+
+.regTextLink a  {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: normal;
+	text-transform: none;
+	color: #65a1a8;
+}
+
+.regTextLink a:hover  {
+	color: #033;
+}
+
+.voice {
+	font-family: "Helvetica Neue";
+	line-height: 13px;
+	font-size: 11px; 
+	color: #003333;
+}
+
+#welcomeBox {
+	display: block;
+	position: absolute;
+	top: 70px;
+	right: 15px;
+	text-align: right;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 19px;
+	font-size: 12px; 
+	color: #65a1a8;
+}
+
+.bottomspace {
+	margin-bottom: 50px;
+}
+
+.heavy {
+	font-weight: bolder;
+}
+
+.hidden {
+	display: none;
+}
+
+.error {
+	color: #c00;
+	font-size: .9em;
+	margin: 5px;
+}
+
+.error_border {
+	border: 1px solid #c00 !important;
+	color: #c00 !important;
+}
+
+#waiting {
+	display: none;
+	width:auto;
+	height:auto;
+	position:absolute;
+	left: 250px;
+	margin: -15px 0 0 0;
+	z-index: 500;
+}
+
+#waitingx {
+	display: none;
+	width:270px;
+	height:150px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-75px 0 0 -135px;
+	background: #fff url(../images/ajax-loader.gif) middle center no-repeat;
+	filter: alpha(opacity=90); /* internet explorer */
+	-khtml-opacity: 0.9;      /* khtml, old safari */
+	-moz-opacity: 0.9;       /* mozilla, netscape */
+	opacity: 0.9;           /* fx, safari, opera */
+	z-index: 500;
+}
+
+
+footer {
+	display: block;
+	position: relative;
+	float: right;
+	color: #65a1a8;
+	text-align: right;
+	font-size: 10px;
+	font-weight: bold;  
+	margin: 0 15px 70px 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer nav { display: inline; }
+footer nav ul { display: inline; position: relative; margin-right: 25px; }
+footer nav li {
+	display: inline; margin-left: 10px;
+	text-transform: uppercase;
+}
+footer .copyright {
+	display: inline; text-transform: uppercase; color: #65a1a8; font-weight: normal;
+}
+
+.ssl-verify {
+	display: block;
+	position: absolute;
+	right: 25px;
+	width: 150px;
+	
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#home-login-link {
+	padding: 10px;
+}
+
